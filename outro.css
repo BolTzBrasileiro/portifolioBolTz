@@ -1,0 +1,107 @@
+
+body{
+     font-family:monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 0;
+      font-size: 25px;  
+  }
+
+.container{
+    flex-direction: column;
+
+}
+
+ header {
+    text-align: center;
+    border: solid black 5px;
+    border-radius: 20px;
+  }
+.title{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: Black;
+}
+  nav{
+    background-color: white;
+    color: black;
+    padding: 3px;
+    font-size: 16px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+  }
+
+  main{
+    background-color: white;
+    margin-top:  20px;
+}
+
+.lados{
+  display: grid;
+  grid-template-columns: 0.3fr 0.25fr ; /* Aplicando section no lado de section */
+  justify-content: center;
+  gap: 20px;
+}/* Divindo as partes, para que o grid template columns pegue somente na parte desejada
+já se, for aplicado pelo main, pode difultar para alterar as posições da seções*/
+
+  
+  section{
+    margin:auto;
+  }
+  section.texto{
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    border: solid black 5px;
+    font-size: 16px;
+  }
+  .icons{
+    font-size: 25px;
+   
+  }
+a{
+    color: black;
+    text-decoration: none;
+   
+  }
+  section.imagem{
+    border-radius: 20px;
+    border: solid black 5px;
+    position: relative;
+  }
+  
+  section.projetos{
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+    background-color: rgb(223, 223, 223);
+    border-color: black 1px;
+ width: 20em;
+  }
+ 
+  .div{
+    gap:20px;
+    display: grid;
+     grid-template-columns:  0.25fr  0.25fr 0.25fr; /* Aplicando section no lado de section */
+   
+  }
+  
+
+  img{ border-radius: 20px;
+    height: 350px;
+  }
+
+  footer{
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: BLack;
+    color: white;
+  }
